@@ -1,0 +1,86 @@
+@font-face {
+  font-family: cool_font;
+  src: url('../fonts/cool_font.woff');
+}
+
+body {
+  background: #efefef;
+  font-size: 40px;
+}
+
+.container {
+  margin: auto;
+  height: 425px;
+  width: 656px;
+  position: relative;
+}
+
+.card {
+  background: #fcfcfc;
+  width: 225px;
+  height: 350px;
+  border-radius: 10px;
+  position: absolute;
+  box-shadow: -8px 9px 20px -6px black;
+}
+
+#spades {
+  transform: rotateZ(345deg);
+  top: 51px;
+  left: 50px;
+}
+
+#hearts {
+  top: 30px;
+  left: 212px;
+  color: red;
+}
+
+#clubs {
+  transform: rotateZ(15deg);
+  top: 51px;
+  left: 375px;
+}
+
+.top-left-ace {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.bottom-right-ace {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  transform: rotateZ(180deg);
+}
+
+.logo-container {
+  margin: 35px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  width: 150px;
+  margin: 54px 0 0 2px;
+}
+
+.caption {
+  text-align: center;
+  font-family: 'cool_font';
+  font-size: 72px;
+  color: purple;
+  background: -webkit-gradient(linear, left top, left bottom, from(purple), to(#888));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  min-width: 656px;
+}
+
+#disclaimer {
+  text-align: center;
+  font-family: 'cool_font';
+  color: #507092;
+  min-width: 656px;
+}
